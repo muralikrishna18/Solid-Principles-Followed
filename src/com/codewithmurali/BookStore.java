@@ -12,6 +12,13 @@ public class BookStore {
         WhatsApp whatsApp = new WhatsApp(book);
         whatsApp.shareToContact();
         book.mobi();
+        EVersion e = book;
+        e.getPdf();
+        e.mobi();
+        e.epub();
+
+
+
 
 
 
